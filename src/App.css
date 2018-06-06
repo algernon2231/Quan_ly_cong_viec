@@ -26,23 +26,20 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
-.mt-60{
-  margin-top: 60px; 
+.mt-30{
+  margin-top: 30px ;
 }
-
-#content {
-  padding : 10px; 
-  border : solid 3px red; 
+.text-right {
+  float: right ;
 }
-
-span {
-  display: inline-block ;
-  width:  60px ;
-  height: 60px;
-  margin: 10px; 
-  padding: 10px;
+.text-center {
+  text-align: center;
 }
-
-.active {
-  border : solid 3px black;
+.sort_selected::after {
+  content: '\f00c';
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  margin: 0px 0px 0px 0px ;
+  display: inline-block;
 }
